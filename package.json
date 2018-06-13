@@ -1,13 +1,16 @@
 {
     "version": "1.0.5",
-    "name": "com.synconset.imagepickerExt",
+    "name": "cordova-plugin-stomtia-image-picker-ext",
     "cordova_name": "ImagePicker",
     "description": "\n\t\tThis plugin allows selection of multiple images from the camera roll / gallery in a phonegap app\n\t",
     "license": "MIT",
-    "platforms": [
-        "ios",
-        "android"
-    ],
+    "cordova": {
+        "id": "cordova-plugin-stomtia-image-picker-ext",
+        "platforms": [
+          "ios",
+          "android"
+        ]
+    },
     "engines": [
         {
             "name": "cordova",
